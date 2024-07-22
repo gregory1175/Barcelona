@@ -24,7 +24,7 @@ function ChatSection() {
 			<div>
 				<UserChat messages={messages} sendMessage={sendMessage} />
 			</div>
-			<div className={style.caht__separator}></div>
+			<div className={style.chat__separator}></div>
 			<div>
 				<AdminChat messages={messages} sendMessage={sendMessage} />
 			</div>

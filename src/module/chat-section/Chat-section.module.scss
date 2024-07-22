@@ -1,8 +1,10 @@
-.chat__section {
-	display: flex;
-	align-items: center;
-	margin: 0 244px 134px 243px;
-
+.chat {
+	&__section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 244px 134px 243px;
+	}
 	&__separator {
 		height: 698px;
 		width: 2px;

@@ -66,6 +66,19 @@
 		font-size: $text-small;
 		margin-right: 30px;
 		position: relative;
+
+		&::before {
+			content: '';
+			display: inline-block;
+			width: 2px;
+			height: 2px;
+			border-radius: 50%;
+			background-color: currentColor;
+			position: absolute;
+			left: -5px;
+			top: 6px;
+			color: #8f8f8e;
+		}
 	}
 
 	&__like_image {
