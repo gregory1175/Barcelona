@@ -21,6 +21,7 @@ function AdminChat({ messages, sendMessage }) {
 			messageInput={messageInput}
 			setMessageInput={setMessageInput}
 			sendButton={handleSendMessage}
+			titleImage='../../src/assets/flag.jpg'
 			sendButtonImage='../../src/assets/Icon.svg'
 		/>
 	);
