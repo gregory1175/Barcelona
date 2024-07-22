@@ -1,0 +1,82 @@
+@import '../../styles/mixins/mixins';
+@import '../../styles/variables/variables';
+
+.card {
+	width: 300px;
+	height: 410px;
+	background-color: #f9f7f2;
+	font-family: 'Roboto';
+
+	&__container {
+		position: relative;
+	}
+
+	&__image {
+		width: 30px;
+		height: 30px;
+		border-radius: 999px;
+		margin-right: 10px;
+	}
+
+	&__title_author {
+		font-size: $text-medium;
+		line-height: $text-line-height;
+		font-family: inherit;
+		margin: 8px 0px 5px 0px;
+	}
+
+	&__title_container {
+		display: flex;
+		margin: 0px 0px 14px 19px;
+	}
+
+	&__about_title_container {
+		margin-left: 19px;
+		display: flex;
+	}
+
+	&__about_title {
+		margin: 0 3px 12px 0;
+		color: $orange-color;
+		font-size: $text-large;
+		line-height: 17px;
+	}
+	&__about_description {
+		font-size: $text-large;
+		color: $gray-color;
+	}
+
+	&__description {
+		@include line-clamp(7);
+		max-height: 180px;
+		line-height: $text-line-height;
+		font-weight: 500;
+		margin: 0px 19px 5px 19px;
+	}
+	&__footer_container {
+		display: flex;
+		color: $light-gray-color;
+	}
+	&__date {
+		font-size: $text-small;
+		margin: 0px 10px 0px 19px;
+	}
+
+	&__comments {
+		font-size: $text-small;
+		margin-right: 30px;
+		position: relative;
+	}
+
+	&__like_image {
+		width: 14px;
+		height: 16px;
+		margin-right: 5px;
+	}
+
+	&__likes {
+		font-size: $text-small;
+		display: flex;
+		align-self: center;
+	}
+}

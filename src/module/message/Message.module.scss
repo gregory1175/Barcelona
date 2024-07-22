@@ -1,0 +1,28 @@
+.message {
+	&__container {
+		display: flex;
+		width: 384px;
+		margin: 0px 26px;
+		word-break: break-all;
+		overflow-wrap: break-word;
+	}
+
+	&__image {
+		width: 44px;
+		height: 44px;
+		border-radius: 999px;
+		margin-right: 10px;
+	}
+
+	&__mymessage {
+		font-size: 15px;
+		min-height: 24px;
+		margin-right: 28px;
+	}
+
+	&__time {
+		font-size: 11px;
+		line-height: 25px;
+		color: #9d9d9d;
+	}
+}

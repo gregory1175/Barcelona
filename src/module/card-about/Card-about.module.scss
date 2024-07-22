@@ -1,0 +1,55 @@
+@import '../../styles/variables/variables';
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 879px;
+	height: 440px;
+	margin: 110px 244px 20px 243px;
+	background-color: #ffffff;
+
+	&__image {
+		width: auto;
+		height: auto;
+		object-fit: contain;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		margin: 104px 37px 104px 29px;
+		font-family: 'Roboto';
+	}
+
+	&__title {
+		font-size: $title-font-size;
+		line-height: $title-line-height;
+		padding-bottom: 19px;
+		font-family: inherit;
+		font-weight: 900;
+	}
+
+	&__description {
+		font-size: $text-large;
+		line-height: $text-line-height;
+		font-family: inherit;
+		padding-bottom: 6px;
+	}
+
+	&__link {
+		font-size: $text-large;
+		line-height: $text-line-height;
+		position: relative;
+		color: #000000;
+		border-bottom: $red-color 3px solid;
+		text-decoration: none;
+		align-self: start;
+		font-weight: 400;
+		font-family: inherit;
+
+		&:hover {
+			color: $gray-color;
+			border: inherit;
+		}
+	}
+}

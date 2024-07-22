@@ -1,0 +1,112 @@
+@import '../../styles/variables/variables';
+.chat {
+	&__container {
+		width: 415px;
+		height: 698px;
+		background-color: white;
+		font-family: 'Roboto';
+	}
+
+	&__header_container {
+		display: flex;
+		gap: 20px;
+		height: 98px;
+		border-bottom: 1px solid #ececec;
+	}
+
+	&__header_image {
+		display: flex;
+		justify-self: center;
+		align-self: center;
+		margin-left: 26px;
+		width: 44px;
+		height: 44px;
+		border-radius: 999px;
+	}
+
+	&__header_container_title {
+		justify-self: center;
+		align-self: center;
+		justify-content: center;
+	}
+
+	&__header_title {
+		font-size: 18px;
+		line-height: 17px;
+		font-weight: 900;
+	}
+
+	&__header_container_description {
+		display: flex;
+	}
+
+	&__header_image_description {
+		display: flex;
+		width: 7px;
+		object-fit: contain;
+		max-width: 100%;
+		max-height: 100%;
+		margin-right: 4px;
+	}
+	&__header_info {
+		font-size: 13px;
+		line-height: 17px;
+		color: $red-color;
+	}
+
+	&__header_rate {
+		align-self: center;
+	}
+
+	&__message_container {
+		overflow-y: scroll;
+		overflow-x: hidden;
+		height: 502px;
+
+		&::-webkit-scrollbar {
+			width: 3px;
+		}
+
+		&::-webkit-scrollbar-thumb {
+			background-color: $red-color;
+		}
+	}
+
+	&__footer_container {
+		display: flex;
+		gap: 20px;
+		height: 98px;
+		border-top: 1px solid #ececec;
+	}
+
+	&__footer_user_image {
+		display: flex;
+		align-self: center;
+		width: 44px;
+		height: 44px;
+		margin: 0 19px 0px 26px;
+		border-radius: 999px;
+	}
+	&__footer_message {
+		display: flex;
+		align-self: center;
+		width: 270px;
+		height: 49px;
+		color: #a3a2a2;
+		border: #ececec 1px solid;
+	}
+
+	&__footer_send_message_button {
+		align-items: center;
+		background: none;
+		border: none;
+		display: flex;
+		align-self: center;
+		height: 44px;
+		width: 44px;
+		margin-right: 19px;
+	}
+	&__footer_send_button_image {
+		cursor: pointer;
+	}
+}

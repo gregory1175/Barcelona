@@ -1,0 +1,34 @@
+.image {
+	position: relative;
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+
+	&__container {
+		display: flex;
+		gap: 5px;
+		margin: 0px 0px 26px 19px;
+	}
+
+	&__remaining {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: #fff;
+		font-size: 1.2em;
+		font-weight: bold;
+	}
+
+	&__wrapper {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		margin-right: 10px;
+	}
+}
