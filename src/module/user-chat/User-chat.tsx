@@ -18,7 +18,7 @@ function UserChat({ messages, sendMessage }) {
 			headerInfo='Гид по Баварии, фотограф'
 			headerRate={4}
 			messages={messages}
-			footerImage='../../src/assets/UserTestPhoto.png'
+			footerImage='../../src/assets/MoreUserPhoto.png'
 			messageInput={messageInput}
 			setMessageInput={setMessageInput}
 			sendButton={handleSendMessage}

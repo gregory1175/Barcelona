@@ -17,7 +17,7 @@ function AdminChat({ messages, sendMessage }) {
 			headerTitle='Администратор'
 			headerInfo='TravelAsk'
 			messages={messages}
-			footerImage='../../src/assets/MoreUserPhoto.png'
+			footerImage='../../src/assets/UserTestPhoto.png'
 			messageInput={messageInput}
 			setMessageInput={setMessageInput}
 			sendButton={handleSendMessage}

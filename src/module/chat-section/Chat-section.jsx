@@ -12,8 +12,8 @@ function ChatSection() {
 			text,
 			userImage:
 				from === 'user'
-					? '../src/assets/UserTestPhoto.png'
-					: '../src/assets/MoreUserPhoto.png',
+					? '../src/assets/MoreUserPhoto.png'
+					: '../src/assets/UserTestPhoto.png',
 			sendTime: new Date().toLocaleTimeString(),
 		};
 		setMessages((prevMessages) => [...prevMessages, newMessage]);
